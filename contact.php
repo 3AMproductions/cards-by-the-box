@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Cards Buy The Box</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="indexcss02.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" type="text/css" href="niftyCorners.css" />
+<link rel="stylesheet" type="text/css" href="niftyPrint.css" media="print" />
+<script type="text/javascript" src="nifty.js"></script>
+<script type="text/javascript">
+window.onload=function(){
+if(!NiftyCheck())
+    return;
+<!--Rounded("div#content","all","#E5FFF9","#FFE146","smooth");-->
+<!--Rounded("ul#side","all","#E5FFF9","#0361AD","smooth");-->
+Rounded("div#content","all","#5F5F5F","#FFE146","smooth");
+Rounded("ul#side","top","#5F5F5F","#C5EDFF","smooth");
+Rounded("ul#side","bottom","#5F5F5F","#0361AD","smooth");
+<!--Rounded("div#thebody","top","#C2C2C2","#5F5F5F","smooth");-->
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1>Cards Buy The Box</h1>
+<ul id="nav">
+	<li><a href="index.htm">Home</a></li>
+  <li><a href="shop.htm">Buy Online</a></li>
+  <li class="location"><a href="contact.php">Contact</a></li>
+</ul>
+</div><!--header-->
+
+<div id="thebody">
+
+<div id="content">
+<h2>Contact Us</h2>
+<form action="/contact.htm" method="post">
+	<p class="contact">Do you have any comments, questions or concerns? Just send us an e-mail and we'll get back to you as soon as we can. Thank you for your interest.</p>
+	<fieldset>
+		<!--<legend >Contact Information</legend>-->
+		<div class="clear"><label for="name" >Name:</label><input id="name" name="name" type="text" /></div>
+    <div class="clear"><label for="email">Email:</label><input id="email" name="email" type="text" /></div>
+    <div class="clear"><label for="misc">Comments:</label><textarea id="misc" name="misc" rows="8" cols="25"></textarea></div>
+
+  </fieldset>
+  <fieldset>
+    <div class="clear"><input id="submit" name="submit" value="Submit" type="submit" /></div>
+  </fieldset>
+</form>
+</div><!--content-->
+
+<ul id="side">
+	<li><h4>Categories</h4></li>
+  <li><a href="bio.htm">Bio</a></li>
+  <li><a href="halloween/halloween1.htm">Halloween</a></li>
+  <li><a href="thanksgiving/thanksgiving1.htm">Thanksgiving</a></li>
+  <li><a href="christmas/christmasnocards.htm">Christmas</a></li>
+  <li><a href="easter/easter1.htm">Easter</a></li>
+  <li><a href="valentine/valentine1.htm">Valentine</a></li>
+  <li><a href="alloccasion/alloccasions1.htm">All Occasion</a></li>
+  <li><a href="anniversary/anniversary1.htm">Anniversary</a></li>
+  <li><a href="baby/baby1.htm">Baby</a></li>
+  <li><a href="birthday/birthday1.htm">Birthday</a></li>
+  <li><a href="gifts/gifts1.htm">Blank Note Cards</a></li>
+  <li><a href="thinkingofyou/thinkofyou1.htm">Cheer &amp; Hello</a></li>
+  <li><a href="alloccasion/alloccasions3.htm">Church Occasion</a></li>
+  <li><a href="confirmation/conformation1.htm">Confirmation</a></li>
+  <li><a href="encouragement/encouragement1.htm">Encouragement</a></li>
+  <li><a href="thinkingofyou/thinkofyou1.htm">Friendship &amp; Caring</a></li>
+  <li><a href="getwell/getwell1.htm">Get Well</a></li>
+  <li><a href="graduation/graduation1.htm">Graduation</a></li>
+  <li><a href="thinkingofyou/thinkofyou1.htm">Praying for You</a></li>
+  <li><a href="secretpal/secretpal1.htm">Secret Sister/Pal</a></li>
+  <li><a href="sympathy/sympathy1.htm">Sympathy</a></li>
+  <li><a href="thinkingofyou/thinkofyou1.htm">Thinking of You</a></li>
+  <li><a href="thankyou/thankyou1.htm">Thank You</a></li>
+  <li><a href="wedding/wedding1.htm">Wedding</a></li>
+</ul>
+
+</div><!--thebody-->
+
+<div id="bottom">
+  <span class="left"><a href="index.htm">Home</a> |
+  <a href="shop.htm">Buy Online</a> |
+  <a href="contact.php">Contact</a></span>
+  <a href="http://www.3amproductions.net">another 3AM Production</a> (
+	<a title="Validate as XHTML" rel="validate external" href="http://validator.w3.org/check?uri=http://rowe.3amproductions.net"><abbr title="eXtensible Hypertext Markup Language"><acronym title="eXtensible Hypertext Markup Language">XHTML</acronym></abbr></a> |
+	<a title="Validate CSS" rel="validate external" href="http://jigsaw.w3.org/css-validator/validator?uri=http://rowe.3amproductions.net/indexcss02.css"><abbr title="Cascading Style Sheets"><acronym title="Cascading Style Sheets">CSS</acronym></abbr></a> )
+	<!--<a title="Validate as Section 508 Compliant" rel="validate external" href="http://www.contentquality.com/mynewtester/cynthia.exe?Url1=http://rowe.3amproductions.net"><abbr title="Section 508"><acronym title="Section 508">508</acronym></abbr></a> )-->
+</div><!--bottom-->
+
+</div><!--container-->
+
+</body>
+
+</html>
